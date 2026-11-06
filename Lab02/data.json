@@ -1,0 +1,12 @@
+{
+    "chart_title": "Weekly Sleep Schedule",
+    "data_points": [
+        {"label": "Monday", "value": 6},
+        {"label": "Tuesday", "value": 7},
+        {"label": "Wednesday", "value": 5},
+        {"label": "Thursday", "value": 8},
+        {"label": "Friday", "value": 7},
+        {"label": "Saturday", "value": 9},
+        {"label": "Sunday", "value": 8}
+    ]
+}
