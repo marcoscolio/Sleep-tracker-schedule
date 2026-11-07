@@ -5,7 +5,16 @@ st.set_page_config(
     page_icon="🌙",
     layout="wide"
 )
+st.sidebar.title("Navigation")
 
+if st.sidebar.button("🏠 Home"):
+    st.switch_page("HomePage.py")
+
+if st.sidebar.button("📝 Survey"):
+    st.switch_page("pages/Survey.py")
+
+if st.sidebar.button("📊 Visuals"):
+    st.switch_page("pages/Visuals.py")
 st.title("🌙 Sleep Schedule Tracker")
 
 st.subheader("Welcome!")
