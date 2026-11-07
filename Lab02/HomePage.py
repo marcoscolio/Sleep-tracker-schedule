@@ -11,10 +11,10 @@ if st.sidebar.button("🏠 Home"):
     st.switch_page("HomePage.py")
 
 if st.sidebar.button("📝 Survey"):
-    st.switch_page("pages/Survey.py")
+    st.switch_page("Lab02/pages/Survey.py")
 
 if st.sidebar.button("📊 Visuals"):
-    st.switch_page("pages/Visuals.py")
+    st.switch_page("Lab02/pages/Visuals.py")
 st.title("🌙 Sleep Schedule Tracker")
 
 st.subheader("Welcome!")
